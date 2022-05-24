@@ -1,15 +1,16 @@
 import "./App.css";
-import { BrowserRouter } from "react-router-dom";
+import { Route, Routes, Router } from "react-router-dom";
 import React from "react";
 import About from "./components/about";
 import LandingPage from "./components/landing-page";
 import Home from "./components/home";
 import UploadPage from "./components/upload-page";
 
+
 function App() {
   return (
     <Router>
-      <Switch>
+      <Routes>
         <Route path="/:path(|about)">
           <About />
         </Route>
@@ -26,7 +27,7 @@ function App() {
         <Route path="/upload-page">
           <UploadPage />
         </Route>
-      </Switch>
+      </Routes>
     </Router>
   );
 }
