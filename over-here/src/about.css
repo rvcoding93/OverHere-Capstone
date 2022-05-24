@@ -1,0 +1,61 @@
+/* screen - about */
+
+.about {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1024px;
+  width: 1440px;
+}
+
+.about .overlap-group {
+  align-items: center;
+  background-color: #9d5f5f;
+  display: flex;
+  flex-direction: column;
+  min-height: 1024px;
+  width: 1440px;
+}
+
+.about .rectangle-40 {
+  background-color: var(--falu-red);
+  height: 75px;
+  width: 1440px;
+}
+
+.about .flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 21.0px;
+  margin-top: 90px;
+  min-width: 1253px;
+}
+
+.about .rectangle-45 {
+  background-color: var(--alto);
+  height: 200px;
+  width: 700px;
+}
+
+.about .rectangle-48 {
+  background-color: var(--alto);
+  height: 200px;
+  margin-left: 203px;
+  width: 350px;
+}
+
+.about .rectangle-46 {
+  background-color: var(--alto);
+  height: 215px;
+  margin-right: 24.0px;
+  margin-top: 64px;
+  width: 1250px;
+}
+
+.about .rectangle-47 {
+  background-color: var(--alto);
+  height: 215px;
+  margin-right: 24.0px;
+  margin-top: 55px;
+  width: 1250px;
+}
