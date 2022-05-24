@@ -1,9 +1,11 @@
 import React from "react";
-import App from "../App";
+import {render} from 'react-dom'
 
 function UploadPage () {
     return (
-        <body style="margin: 0; background: #ffffff">
+      render (
+        <body >
+        {/* style="margin: 0; background: #ffffff" --- this styling came from the BODY tab*/}
         <input type="hidden" id="anPageName" name="page" value="upload-page" />
         <div class="container-center-horizontal">
           <div class="upload-page screen">
@@ -27,6 +29,7 @@ function UploadPage () {
           </div>
         </div>
       </body>
+      )
     );
   }
 

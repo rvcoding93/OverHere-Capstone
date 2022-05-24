@@ -2,7 +2,7 @@
 
 .home {
   align-items: flex-start;
-  background-color: var(--white);
+  background-color: whitesmoke;
   display: flex;
   height: 1024px;
   width: 1440px;
@@ -18,13 +18,13 @@
 }
 
 .home .rectangle-31 {
-  background-color: var(--falu-red);
+  background-color: rgb(176, 97, 97);
   height: 75px;
   width: 1440px;
 }
 
 .home .rectangle-41 {
-  background-color: var(--alto);
+  background-color: rgb(124, 47, 47);
   height: 200px;
   width: 1440px;
 }

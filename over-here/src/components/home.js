@@ -1,9 +1,11 @@
 import React from 'react'
-import App from './upload-page';
+import {render} from 'react-dom'
 
 function Home () {
     return (
-      <body style="margin: 0; background: #ffffff">
+      render (
+      <body >
+      {/* style="margin: 0; background: #ffffff" --- this styling came from the BODY tab*/}
     <input type="hidden" id="anPageName" name="page" value="home" />
     <div class="container-center-horizontal">
       <div class="home screen">
@@ -16,6 +18,7 @@ function Home () {
       </div>
     </div>
   </body>
+      )
     );
   }
 
