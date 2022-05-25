@@ -1,0 +1,162 @@
+/* screen - upload-page */
+
+.upload-page {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1024px;
+  width: 1440px;
+}
+
+.upload-page .overlap-group {
+  align-items: center;
+  background-color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  min-height: 1024px;
+  width: 1440px;
+}
+
+.upload-page .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--astronaut);
+  display: flex;
+  min-width: 1440px;
+}
+
+.upload-page .rectangle-49 {
+  background-color: var(--barberry);
+  height: 75px;
+  width: 250px;
+}
+
+.upload-page .overlap-group4 {
+  align-items: flex-start;
+  background-color: #b27f7f;
+  display: flex;
+  margin-left: 450px;
+  min-width: 740px;
+}
+
+.upload-page .rectangle-5 {
+  background-color: var(--barberry);
+  height: 75px;
+  width: 185px;
+}
+
+.upload-page .rectangle-5-1 {
+  background-color: var(--astronaut);
+  height: 75px;
+  width: 185px;
+}
+
+.upload-page .rectangle-32 {
+  background-color: var(--astronaut);
+  height: 54px;
+  margin-right: 1.0px;
+  margin-top: 29px;
+  width: 517px;
+}
+
+.upload-page .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 10.0px;
+  margin-top: 28px;
+  min-width: 1300px;
+}
+
+.upload-page .overlap-group2 {
+  background-color: var(--copper-rust);
+  height: 364px;
+  position: relative;
+  width: 584px;
+}
+
+.upload-page .rectangle-36 {
+  background-color: var(--astronaut);
+  height: 364px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 584px;
+}
+
+.upload-page .rectangle-38 {
+  background-color: var(--barberry);
+  height: 50px;
+  left: 167px;
+  position: absolute;
+  top: 157px;
+  width: 250px;
+}
+
+.upload-page .overlap-group3 {
+  align-items: center;
+  background-color: var(--astronaut);
+  display: flex;
+  height: 364px;
+  margin-left: 132px;
+  min-width: 584px;
+  padding: 0 167px;
+}
+
+.upload-page .rectangle-39 {
+  background-color: var(--barberry);
+  height: 50px;
+  width: 250px;
+}
+
+.upload-page .flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 10.0px;
+  margin-top: 55px;
+  min-width: 1300px;
+}
+
+.upload-page .rectangle-37 {
+  background-color: var(--astronaut);
+  height: 364px;
+  width: 584px;
+}
+
+.upload-page .rectangle-35 {
+  background-color: var(--astronaut);
+  height: 364px;
+  margin-left: 132px;
+  width: 584px;
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root { 
+  --astronaut: #183379;
+  --barberry: #ded61c;
+  --copper-rust: #994848;
+  --white: #ffffff;
+
+
+}
