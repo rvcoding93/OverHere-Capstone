@@ -1,10 +1,8 @@
 import React from 'react'
-import {render} from 'react-dom'
 import './home.css'
 
 function Home () {
     return (
-      render (
       <body >
       {/* style="margin: 0; background: #ffffff" --- this styling came from the BODY tab*/}
     <input type="hidden" id="anPageName" name="page" value="home" />
@@ -19,7 +17,6 @@ function Home () {
       </div>
     </div>
   </body>
-      )
     );
   }
 

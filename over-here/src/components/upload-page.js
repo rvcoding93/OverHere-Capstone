@@ -1,11 +1,9 @@
 import { Button } from "@mui/material";
 import React from "react";
-import {render} from 'react-dom'
 import './upload-page.css'
 
 function UploadPage () {
     return (
-      render (
         <body >
           {/* style="margin: 0; background: #ffffff" */}
         <input type="hidden" id="anPageName" name="page" value="upload-page" />
@@ -47,7 +45,6 @@ function UploadPage () {
           </div>
         </div>
       </body>
-      )
     );
   }
 

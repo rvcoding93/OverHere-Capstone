@@ -1,11 +1,9 @@
 import React from "react";
 import Button from '@mui/material/Button';
-import {render} from 'react-dom'
 
 
 function LandingPage() {
     return (
-      render(
         <body >
         {/* style="margin: 0; background: #ffffff" --- this styling came from the BODY tab*/}
     <input type="hidden" id="anPageName" name="page" value="landing-page" />
@@ -19,7 +17,6 @@ function LandingPage() {
       </div>
     </div>
   </body>
-      )
     );
   }
 

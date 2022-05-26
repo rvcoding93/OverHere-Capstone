@@ -17,9 +17,6 @@ function App() {
         </Route>
         <Route path="/landing-page">
           <LandingPage
-            overlapGroup="/img/ukraine-by-theno7er-df0matk-250t-1@1x.png"
-            flag_Of_Ukraine1="/img/flag-of-ukraine-1@2x.png"
-            title="Enter Here"
           />
         </Route>
         <Route path="/home">

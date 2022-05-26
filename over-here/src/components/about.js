@@ -1,14 +1,13 @@
 import React from "react";
-import {render} from 'react-dom'
 import './about.css'
+
 
 function About () {
     return (
-        render (
         <body> 
         {/* style="margin: 0; background: #ffffff" --- this styling came from the BODY tab*/}
         <input type="hidden" id="anPageName" name="page" value="about" />
-        <div class="container-center-horizontal">
+        <div  class="container-center-horizontal">
         <div class="about screen">
             <div class="overlap-group">
             <div class="rectangle-40"></div>
@@ -22,7 +21,6 @@ function About () {
         </div>
         </div>
     </body>
-        )
     );
   }
 
