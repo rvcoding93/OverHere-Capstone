@@ -4,9 +4,6 @@ import './about.css'
 
 function About () {
     return (
-        <body> 
-        {/* style="margin: 0; background: #ffffff" --- this styling came from the BODY tab*/}
-        <input type="hidden" id="anPageName" name="page" value="about" />
         <div  class="container-center-horizontal">
         <div class="about screen">
             <div class="overlap-group">
@@ -20,7 +17,6 @@ function About () {
             </div>
         </div>
         </div>
-    </body>
     );
   }
 

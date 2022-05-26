@@ -3,9 +3,7 @@ import './home.css'
 
 function Home () {
     return (
-      <body >
-      {/* style="margin: 0; background: #ffffff" --- this styling came from the BODY tab*/}
-    <input type="hidden" id="anPageName" name="page" value="home" />
+     
     <div class="container-center-horizontal">
       <div class="home screen">
         <div class="overlap-group">
@@ -16,7 +14,6 @@ function Home () {
         </div>
       </div>
     </div>
-  </body>
     );
   }
 

@@ -2,11 +2,9 @@ import React from "react";
 import Button from '@mui/material/Button';
 
 
+
 function LandingPage() {
     return (
-        <body >
-        {/* style="margin: 0; background: #ffffff" --- this styling came from the BODY tab*/}
-    <input type="hidden" id="anPageName" name="page" value="landing-page" />
     <div class="container-center-horizontal">
       <div class="landing-page screen">
         <div class="overlap-group">
@@ -16,7 +14,6 @@ function LandingPage() {
         </div>
       </div>
     </div>
-  </body>
     );
   }
 
