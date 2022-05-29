@@ -2,46 +2,206 @@
 
 .home {
   align-items: flex-start;
-  background-color: whitesmoke;
+  background-color: var(--white);
   display: flex;
   height: 1024px;
   width: 1440px;
 }
 
 .home .overlap-group {
-  align-items: flex-start;
-  background-color: #476b51;
-  display: flex;
-  flex-direction: column;
-  min-height: 1024px;
+  height: 1025px;
+  margin-top: -1px;
+  position: relative;
   width: 1440px;
 }
 
-.home .rectangle-31 {
-  background-color: rgb(176, 97, 97);
+.home .background-container {
+  background-color: #e7e7e7;
+  height: 1024px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 1440px;
+}
+
+.home .nav-bar-container {
+  background-color: var(--astronaut);
   height: 75px;
+  left: 0;
+  position: absolute;
+  top: 1px;
   width: 1440px;
 }
 
-.home .rectangle-41 {
-  background-color: rgb(124, 47, 47);
+.home .logo-container {
+  background-color: var(--barberry);
+  height: 75px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 250px;
+}
+
+.home .title {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 250px;
+}
+
+.home .nav-bar-buttons-container {
+  background-color: #b27f7f;
+  height: 75px;
+  left: 700px;
+  position: absolute;
+  top: 1px;
+  width: 740px;
+}
+
+.home .about-box {
+  background-color: var(--astronaut);
+  height: 75px;
+  left: 885px;
+  position: absolute;
+  top: 1px;
+  width: 185px;
+}
+
+.home .submission-page-button {
+  background-color: var(--barberry);
+  height: 75px;
+  left: 700px;
+  position: absolute;
+  top: 1px;
+  width: 185px;
+}
+
+.home .submission-page {
+  left: 700px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 185px;
+}
+
+.home .search-results-button {
+  background-color: var(--barberry);
+  height: 75px;
+  left: 1070px;
+  position: absolute;
+  top: 1px;
+  width: 185px;
+}
+
+.home .search-results {
+  left: 1070px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 185px;
+}
+
+.home .contact-box {
+  background-color: var(--astronaut);
+  height: 75px;
+  left: 1255px;
+  position: absolute;
+  top: 1px;
+  width: 185px;
+}
+
+.home .about-project-container {
+  background-color: var(--astronaut);
+  height: 458px;
+  left: 0;
+  position: absolute;
+  top: 276px;
+  width: 1440px;
+}
+
+.home .hero-image-container {
+  background-color: var(--alto);
   height: 200px;
+  left: 0;
+  position: absolute;
+  top: 76px;
   width: 1440px;
 }
 
-.home .rectangle-42 {
-  background-color: #ae5252;
-  height: 300px;
+.home .hero-image-box {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 75px;
   width: 1440px;
 }
 
-.home .rectangle-43 {
-  background-color: #571515;
-  height: 449px;
+.home .footer-container {
+  background-color: #172a5c;
+  height: 291px;
+  left: 0;
+  position: absolute;
+  top: 734px;
   width: 1440px;
+}
+
+.home .footer {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m2);
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 731px;
+  width: 1440px;
+}
+
+.home .about-this-project-container {
+  background-color: var(--alto);
+  height: 227px;
+  left: 99px;
+  position: absolute;
+  top: 321px;
+  width: 446px;
+}
+
+.home .about-the-project {
+  left: 96px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 317px;
+  width: 449px;
+}
+
+.home .about-the-dev-box {
+  background-color: var(--alto);
+  height: 227px;
+  left: 918px;
+  position: absolute;
+  top: 321px;
+  width: 446px;
+}
+
+.home .about-the-dev {
+  left: 918px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 320px;
+  width: 446px;
 }
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
 
 .screen a {
   display: contents;
@@ -66,37 +226,20 @@
 }
 
 :root { 
+  --alto: #d9d9d9;
   --astronaut: #183379;
   --barberry: #ded61c;
-  --copper-rust: #994848;
+  --black: #000000;
   --white: #ffffff;
+ 
+  --font-size-m2: 32px;
+ 
+  --font-family-inter: "Inter", Helvetica;
 }
-
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css?family=Inter:400");
-/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
-
-
-
-.screen a {
-  display: contents;
-  text-decoration: none;
+.inter-normal-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m2);
+  font-style: normal;
+  font-weight: 400;
 }
-
-.container-center-horizontal {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  pointer-events: none;
-  width: 100%;
-}
-
-.container-center-horizontal > * {
-  flex-shrink: 0;
-  pointer-events: auto;
-}
-
-* {
-  box-sizing: border-box;
-}
-

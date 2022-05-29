@@ -12,6 +12,7 @@ import ErrorPage from "./components/ErrorPage"
 
 function App() {
   return (
+    <div>
     <Router>
       <nav>
       <Link to="/">Home</Link>
@@ -19,6 +20,7 @@ function App() {
       <Link to="/upload-page">Contact</Link>
       </nav>
       <Routes>
+        
         <Route path="/about" element={<About/>}/>
         <Route path="/" element={<LandingPage/>}/>
         <Route path="/home" element={<Home/>}/>
@@ -26,6 +28,7 @@ function App() {
         <Route path="*" element={<ErrorPage/>} />
       </Routes>
     </Router>
+    </div>
   );
 }
 

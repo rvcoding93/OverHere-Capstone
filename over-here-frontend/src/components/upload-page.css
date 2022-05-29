@@ -84,6 +84,9 @@
 
 .upload-page .rectangle-38 {
   background-color: var(--barberry);
+  justify-content: center;
+  align-items: center;
+  
   height: 50px;
   left: 167px;
   position: absolute;
@@ -94,6 +97,10 @@
 .upload-page .overlap-group3 {
   align-items: center;
   background-color: var(--astronaut);
+  background-image: url(https://lh3.googleusercontent.com/_B43S5qwF5J3FFbBE5NjB1I0RgmZ_RqlJX8Bebbk6KGb7HCfCmaj7AyLuB-HJPvZtg2NO5spEdm9F8Lwpxap_GqD11QTNvVcT1kwCQF66uPKQgJOyVaodDqeV1AiWVDuEr1UjjlEU218uF_i77l4shWivPQ1dcg9A19Cg_A1_ldFhI26aUN1eX7YtJCSB_zxGoHGkYY2Rh6U4CRut1GBbbP8lonxI3v9ifSXicDu90Lm02rv0wzL7PYfx1TudBLMaD8sIxD6XV5h2acOBllq9vRfvQe-Xq5vyKpq_SEYsLvf1K2KZcraS42dZ1F3GzvubIcaGw1FrbsClt_qW80_quY65sAlLqjbyRM6M4q6GBbPxHgX5WVPIeWBgNZdFw472SCH0wSyJteGVGw42VV45S_QLQ5d3tLSFyUy6GByAbgMYNyYCiyafzv3m7-XpLNtahkt2W0UsUk4rdAzkxiXwaghV4zZLn3mUgP1ndoPfQudqLABoLssIjYqcF8GPFAyikkYxsxyVVK2Q9oxqeqiZNt8iGhk4UCjQYe-k5INcYNh4jMapw_W04Wc0Fa6bEZNhc4f04Znhmh9akrbr9pz9qnKJ3RoaeAJyIrnLMSJHVkLP98KCfRiPWlY8XkoWMJyJxZ2shiMmEqY3NrCyBCkqBqhqKCSAyeajjfesqNqnzj0lJcoZ2ZROjvKXtzucvZrp_9CNa4fWx6llxRaFEu1TP8RgzuyFLedeeF_E-kwwbMa3MWSgayeUDF-gBrRkhI_EdmZdVECkZSM9wgjDLDHCmO4CMRoy0aALlU=w330-h220-no?authuser=0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   display: flex;
   height: 364px;
   margin-left: 132px;
