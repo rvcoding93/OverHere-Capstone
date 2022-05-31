@@ -119,3 +119,6 @@
   box-sizing: border-box;
 }
 
+body, html { 
+  font-family: 'Vazir', sans-serif;
+}
